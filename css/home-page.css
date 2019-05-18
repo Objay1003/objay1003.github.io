@@ -1,0 +1,124 @@
+/* This CSS file holds styles specific to the home page only. */
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+
+  /* The space characters can mess up the layout; making them sizeless gets rid of that problem. */
+  font-size: 0;
+}
+
+.heading {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex: 1 0 0;
+  overflow-y: auto;
+}
+.logo {
+  max-width: 150px;
+  border-radius: 20px;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  display: inline-block;
+  padding: 10px;
+  opacity: 0.7;
+  transition: opacity .2s, transform .2s;
+}
+.social-icons a:hover {
+  opacity: 1;
+  transform: scale(1.1) rotate(5deg);
+}
+.social-icons img {
+  width: 30px;
+}
+.phone-number {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.links {
+  margin-top: 20px;
+}
+.links a {
+  display: flex;
+  position: relative;
+  z-index: 0;
+  margin: 20px 40px;
+  padding: 0 20px;
+  height: 80px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.links img {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+.links a:hover img {
+  opacity: 0.5;
+}
+.links span {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: color .2s, transform .2s;
+}
+.links a:hover span {
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.1);
+}
+
+.about-content {
+  float: left;
+  flex: 2 0 0;
+  padding: 0 25px;
+  overflow: auto;
+}
+
+@media (max-width: 850px) {
+
+  body {
+    display: block;
+  }
+
+  .heading {
+    padding-bottom: 0;
+  }
+
+  .links {
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+
+  .links a {
+    display: inline-flex;
+    height: 50px;
+    margin: 20px;
+    margin-right: 0;
+  }
+
+  .links a:last-child {
+    margin-right: 20px;
+  }
+
+}
