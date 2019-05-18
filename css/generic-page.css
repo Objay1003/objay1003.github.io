@@ -1,0 +1,43 @@
+/* This CSS file is for the other pages. */
+
+.home-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1;
+  opacity: 0.5;
+  transition: opacity .2s;
+}
+.home-link:hover {
+  opacity: 0.8;
+}
+.home-link img {
+  width: 40px;
+}
+
+.heading {
+  display: flex;
+  position: relative;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+.heading img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.heading h1 {
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+  font-size: 8vh;
+  text-align: center;
+}
+
+.content {
+  padding: 0 25px;
+}
