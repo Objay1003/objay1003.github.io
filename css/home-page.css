@@ -13,11 +13,13 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
   flex: 1 0 0;
+  overflow-y: auto;
 }
 .logo {
-  max-width: 200px;
+  max-width: 150px;
   border-radius: 20px;
 }
 .social-icons {
@@ -41,6 +43,9 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.links {
+  margin-top: 20px;
+}
 .links a {
   display: flex;
   position: relative;
@@ -71,7 +76,7 @@ body {
   opacity: 0.5;
 }
 .links span {
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -102,7 +107,7 @@ body {
   .links {
     overflow: auto;
     white-space: nowrap;
-    margin-top: 20px;
+    padding-bottom: 20px;
   }
 
   .links a {
