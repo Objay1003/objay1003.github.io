@@ -1,0 +1,7 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="red" width="800" height="800">
+  <path d="
+    M35 69 h75 a53 53 0 0 1 0 106 v-27 a26 26 0 0 0 0 -52 h-59 z
+    M81 148 l47 81 h31 l-47 -81 z
+    M170 68 v161 h108 l-17 -27 h-64 v-87 z
+  "/>
+</svg>
