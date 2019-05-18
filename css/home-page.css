@@ -1,0 +1,46 @@
+/* This CSS file holds styles specific to the home page only. */
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+
+  /* The space characters can mess up the layout; making them sizeless gets rid of that problem. */
+  font-size: 0;
+}
+
+.heading {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px 0;
+  flex: 1 0 0;
+}
+.logo {
+  max-width: 200px;
+  border-radius: 10px;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  display: inline-block;
+  padding: 10px;
+  opacity: 0.7;
+  transition: opacity .2s, transform .2s;
+}
+.social-icons a:hover {
+  opacity: 1;
+  transform: scale(1.1) rotate(5deg);
+}
+.social-icons img {
+  width: 30px;
+}
+
+.about-content {
+  background-image: linear-gradient(to bottom, #41daef, #ee8242);
+  float: left;
+  flex: 2 0 0;
+  padding: 0 20px;
+  overflow: auto;
+}
