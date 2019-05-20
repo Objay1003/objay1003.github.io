@@ -25,3 +25,35 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-weight: normal;
 }
+
+.content a {
+  color: #60a0e4;
+  text-decoration: none;
+}
+.content a:visited {
+  color: #9460e4;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.image-grid {
+  display: grid;
+  margin: 25px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
