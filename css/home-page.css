@@ -93,7 +93,7 @@ body {
   padding: 0 25px;
   overflow: auto;
 }
-
+/* will le OBJAY ever noticed if i add a comment here???? */
 @media (max-width: 850px) {
 
   body {
@@ -103,13 +103,13 @@ body {
   .heading {
     padding-bottom: 0;
   }
-
+/* what about here */
   .links {
     overflow: auto;
     white-space: nowrap;
     padding-bottom: 20px;
   }
-
+/* le objay should really start using codecademy to learn how to use markup languages */
   .links a {
     display: inline-flex;
     height: 50px;
