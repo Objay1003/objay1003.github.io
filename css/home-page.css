@@ -44,15 +44,15 @@ body {
 }
 
 .links {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .links a {
   display: flex;
   position: relative;
   z-index: 0;
-  margin: 20px 40px;
+  margin: 30px 40px;
   padding: 0 20px;
-  height: 80px;
+  height: 100px;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
