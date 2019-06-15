@@ -44,7 +44,6 @@ body {
 .image-grid {
   display: grid;
   margin: 25px 0;
-  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 @media (max-width: 600px) {
