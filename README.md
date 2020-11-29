@@ -1,1 +1,0 @@
-# objay1003.github.io
