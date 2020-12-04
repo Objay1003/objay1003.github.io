@@ -1,6 +1,0 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="white">
-  <!-- WIP: need to make perfect -->
-  <path d="M15 70 h75 a55 55 0 0 1 0 110 v-30 a25 25 0 0 0 0 -50 h-55 z"/>
-  <path d="M60 150 l50 80 h35 l-50 -80 z"/>
-  <path d="M160 70 v160 h110 l-20 -30 h-60 v-80 z"/>
-</svg>
